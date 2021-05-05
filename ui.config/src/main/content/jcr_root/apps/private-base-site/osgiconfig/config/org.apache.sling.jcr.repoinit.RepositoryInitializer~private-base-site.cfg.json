@@ -1,0 +1,10 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/private-base-site",
+        "create path (nt:unstructured) /content/dam/private-base-site/jcr:content",
+        "set properties on /content/dam/private-base-site/jcr:content",
+        "set cq:conf{String} to /conf/private-base-site",
+        "set jcr:title{String} to \"Banco Estado private\"",
+        "end"
+    ]
+}
