@@ -41,6 +41,7 @@ import {AemAngularCoreWcmComponentsSeparatorV1} from '@adobe/aem-core-components
 import {AemAngularCoreWcmComponentsAccordionV1} from '@adobe/aem-core-components-angular-spa/containers/accordion/v1';
 import {AemAngularCoreWcmComponentsCarouselV1} from '@adobe/aem-core-components-angular-spa/containers/carousel/v1';
 import {AemAngularCoreWcmComponentsLanguageNavigationV1} from '@adobe/aem-core-components-angular-base/layout/language-navigation/v1';
+import { ColumnComponent } from './components/column/column.component';
 
 @NgModule({
   imports: [
@@ -63,7 +64,7 @@ import {AemAngularCoreWcmComponentsLanguageNavigationV1} from '@adobe/aem-core-c
   ],
   providers: [ ModelManagerService,
     { provide: APP_BASE_HREF, useValue: '/' } ],
-  declarations: [AppComponent, TextComponent, PageComponent],
+  declarations: [AppComponent, TextComponent, PageComponent, ColumnComponent],
   entryComponents: [TextComponent, PageComponent],
   bootstrap: [ AppComponent ]
 })
